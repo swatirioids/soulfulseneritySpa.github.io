@@ -5,16 +5,15 @@
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11248345294"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-11248345294');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-11248345294');
 </script>
 <!-- Event snippet for Contact conversion page -->
 <script>
     gtag('event', 'conversion', {'send_to': 'AW-11248345294/tVPACKXe8rgYEM7B0PMp'});
-  </script>
+</script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Soulful Serenity || Spa and Salon</title>
@@ -24,21 +23,13 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/Soulful Serenity-03.png" />
     <link rel="manifest" href="assets/images/favicons/Soulful Serenity-03.png" />
     <meta name="description" content="mellis HTML 5 Template " />
-
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-
     <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
-
     <script src="https://kit.fontawesome.com/8de71d6583.js" crossorigin="anonymous"></script>
-
-
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/custom-animate.css" />
@@ -60,24 +51,15 @@
     <link rel="stylesheet" href="assets/vendors/jquery-ui/jquery-ui.css" />
     <link rel="stylesheet" href="assets/vendors/timepicker/timePicker.css" />
     <link rel="stylesheet" href="assets/vendors/twenty-twenty/twentytwenty.css" />
-
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/mellis.css" />
     <link rel="stylesheet" href="assets/css/mellis-responsive.css" />
 </head>
-
 <body>
-
-
-
     <div class="preloader">
         <div class="preloader__image"></div>
     </div>
     <!-- /.preloader -->
-
-
-
-
     <div class="page-wrapper">
         <header class="main-header">
             <div class="main-header__top">
@@ -97,11 +79,10 @@
                                         //Email-icon
                             var emailLink = document.getElementById("emailLink");
                             emailLink.addEventListener("click", function(event) {
-                               event.preventDefault(); // Prevents the default link behavior
-
-                               var emailAddress = "spasoulful@gmail.com"; // Replace with your email address
-                               var subject = "Email subject"; // Replace with the desired subject line
-                               var body = "Email body"; // Replace with the desired email body
+                                event.preventDefault(); 
+                                var emailAddress = "spasoulful@gmail.com";
+                                var subject = "Email subject"; 
+                                var body = "Email body"; 
                             var mailtoLink = "mailto:" + emailAddress + "?subject=" + encodeURIComponent(subject) + "&body=" +encodeURIComponent(body);
                             window.location.href = mailtoLink;                      
                     });
@@ -129,7 +110,6 @@
                     </div>
                 </div>
             </div>
-
             <nav class="main-menu">
                 <div class="main-menu__wrapper">
                     <div class="main-menu__wrapper-inner">
@@ -166,14 +146,11 @@
                 </div>
             </nav>
         </header>
-
         <div class="stricky-header stricked-menu main-menu">
             <div class="sticky-header__content"></div>
             <!-- /.sticky-header__content -->
         </div>
         <!-- /.stricky-header -->
-
-
         <!--Main Slider Start-->
         <section class="main-slider">
             <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
@@ -191,11 +168,9 @@
         "delay": 5000
         }}'>
                 <div class="swiper-wrapper">
-
                     <div class="swiper-slide">
                         <div class="image-layer" style="background-image: url(assets/images/wall\ \(2\).jpg);"></div>
                         <!-- /.image-layer -->
-
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-12">
@@ -213,11 +188,9 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="swiper-slide">
                         <div class="image-layer" style="background-image: url(assets/images/wallpaper2.jpg);"></div>
                         <!-- /.image-layer -->
-
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-12">
@@ -235,18 +208,12 @@
                             </div>
                         </div>
                     </div>
-
-
                 </div>
-
                 <div class="swiper-pagination" id="main-slider-pagination"></div>
                 <!-- If we need navigation buttons -->
-
-
             </div>
         </section>
         <!--Main Slider End-->
-
         <!--Welcome One Start-->
         <section class="welcome-one">
             <div class="container">
@@ -255,7 +222,7 @@
                         <div class="welcome-one__left">
                             <div class="welcome-one__img-box wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                                 <div class="welcome-one__img">
-                                    <img src="assets/images/backgrounds/spa welcome.jpg" height="500rem"  alt="">
+                                    <img src="assets/images/backgrounds/spa welcome.jpg" loading="lazy" height="500rem"  alt="">
                                     <div class="welcome-one__shape-1 float-bob-y">
                                         <img src="assets/images/shapes/welcome-one-shape-1.png" alt="">
                                     </div>
@@ -301,7 +268,6 @@
             </div>
         </section>
         <!--Welcome One End-->
-
         <!--Services One Start-->
         <section class="services-one">
             <div class="container">
@@ -322,7 +288,7 @@
                                 </div>
                                 <div class="services-one__img-box">
                                     <div class="services-one__img">
-                                        <img src="assets/images/services/services-1-1.jpg" alt="">
+                                        <img src="assets/images/services/services-1-1.jpg" loading="lazy" alt="">
                                     </div>
                                     <div class="services-one__icon">
                                         <img src="assets/images/spa.png" width="60%" alt="">
@@ -349,10 +315,10 @@
                                 </div>
                                 <div class="services-one__img-box">
                                     <div class="services-one__img">
-                                        <img src="assets/images/services/services-1-2.jpg" alt="">
+                                        <img src="assets/images/services/services-1-2.jpg" loading="lazy" alt="">
                                     </div>
                                     <div class="services-one__icon">
-                                        <img src="assets/images/spa.png" width="60%" alt="">
+                                        <img src="assets/images/spa.png"  width="60%" alt="">
                                     </div>
                                 </div>
                                 <h3 class="services-one__title"><a href="massages.html">Massages</a></h3>
@@ -376,10 +342,10 @@
                                 </div>
                                 <div class="services-one__img-box">
                                     <div class="services-one__img">
-                                        <img src="assets/images/services/s1.jpg" height="200rem" alt="">
+                                        <img src="assets/images/services/s1.jpg" loading="lazy" height="200rem" alt="">
                                     </div>
                                     <div class="services-one__icon">
-                                        <img src="assets/images/spa.png" width="60%" alt="">
+                                        <img src="assets/images/spa.png" loading="lazy" width="60%" alt="">
                                     </div>
                                 </div>
                                 <h3 class="services-one__title"><a href="hydro-therapy.html">Hair Treatment</a></h3>
@@ -395,10 +361,9 @@
             </div>
         </section>
         <!--Services One End-->
-
         <!--Video One Start-->
         <section class="video-one">
-            <div class="video-one__bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image: url(assets/images/backgrounds/services.jpg);"></div>
+            <div class="video-one__bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image: url(assets/images/backgrounds/services.jpg);" loading="lazy"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6">
@@ -407,14 +372,6 @@
                                 <span class="section-title__tagline">What else we do</span>
                                 <h2 class="section-title__title">Get An Incredible Spa Experience with Soulful Serenity  Spa and salon Center</h2>
                             </div>
-                            <!-- <div class="video-one__video-link">
-                                <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
-                                    <div class="video-one__video-icon">
-                                        <span class="fa fa-play"></span>
-                                        <i class="ripple"></i>
-                                    </div>
-                                </a>
-                            </div> -->
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6">
@@ -506,15 +463,10 @@
                 </div>
             </div>
         </section>
-        <!--Video One End-->
-
-        
-
-
         <!--Testimonial One Start-->
         <section class="testimonial-one">
             <div class="testimonial-one__bg-box">
-                <div class="testimonial-one__bg" style="background-image: url(assets/images/backgrounds/testimonial-one-bg.jpg);"></div>
+                <div class="testimonial-one__bg" style="background-image: url(assets/images/backgrounds/testimonial-one-bg.jpg);" loading="lazy"></div>
             </div>
             <div class="container">
                 <div class="testimonial-one__top">
@@ -576,7 +528,7 @@
                                     <p class="testimonial-one__text-2">Good , cool ambience, homely service reasonable rates, special attention and guidance.</p>
                                     <div class="testimonial-one__client-info">
                                         <div class="testimonial-one__client-img">
-                                            <img src="assets/images/testimonial/testimonial-1-1.jpg" alt="">
+                                            <img src="assets/images/testimonial/testimonial-1-1.jpg" loading="lazy" alt="">
                                         </div>
                                         <div class="testimonial-one__content">
                                             <h3 class="testimonial-one__client-name">Edna Marxten</h3>
@@ -587,7 +539,6 @@
                             </div>
                         </div>
                         <!--Testimonial One Single End-->
-                        <!--Testimonial One Single Start-->
                         <div class="item">
                             <div class="testimonial-one__single">
                                 <div class="testimonial-one__icon-quote">
@@ -604,7 +555,7 @@
                                     <p class="testimonial-one__text-2">Very nice treatment....so much polite and safe service..... great experience....</p>
                                     <div class="testimonial-one__client-info">
                                         <div class="testimonial-one__client-img">
-                                            <img src="assets/images/testimonial/testimonial-1-2.jpg" alt="">
+                                            <img src="assets/images/testimonial/testimonial-1-2.jpg" loading="lazy" alt="">
                                         </div>
                                         <div class="testimonial-one__content">
                                             <h3 class="testimonial-one__client-name">Mike Hardson</h3>
@@ -632,8 +583,8 @@
                                     <p class="testimonial-one__text-2">Had an amazing experience.
                                         spa service is really good. Foot massage was the best . Will recommend to visit .</p>
                                     <div class="testimonial-one__client-info">
-                                        <div class="testimonial-one__client-img">
-                                            <img src="assets/images/testimonial/testimonial-1-3.jpg" alt="">
+                                        <div class="testimonial-one__client-img" loading="lazy">
+                                            <img src="assets/images/testimonial/testimonial-1-3.jpg" loading="lazy" alt="">
                                         </div>
                                         <div class="testimonial-one__content">
                                             <h3 class="testimonial-one__client-name">Jessica Brown</h3>
@@ -649,7 +600,6 @@
             </div>
         </section>
         <!--Testimonial One End-->
-
         <!--Instagram Start-->
         <section class="instagram">
             <div class="container">
@@ -673,7 +623,7 @@
                     <div class="col-xl-2 col-lg-4 col-md-6">
                         <div class="instagram__single">
                             <div class="instagram__img">
-                                <img src="assets/images/services/s1.jpg" height="198rem" alt="">
+                                <img src="assets/images/services/s1.jpg" loading="lazy" height="198rem" alt="">
                                 <div class="instagram__img-icon">
                                     <a href="https://www.instagram.com/soulful_serenity_spa_and_salon/" target="_blank"><span class="fab fa-instagram"></span></a>
                                 </div>
@@ -685,7 +635,7 @@
                     <div class="col-xl-2 col-lg-4 col-md-6">
                         <div class="instagram__single">
                             <div class="instagram__img">
-                                <img src="assets/images/resources/instagram-1-3.jpg" alt="">
+                                <img src="assets/images/resources/instagram-1-3.jpg" loading="lazy" alt="">
                                 <div class="instagram__img-icon">
                                     <a href="https://www.instagram.com/soulful_serenity_spa_and_salon/" target="_blank"><span class="fab fa-instagram"></span></a>
                                 </div>
@@ -697,7 +647,7 @@
                     <div class="col-xl-2 col-lg-4 col-md-6">
                         <div class="instagram__single">
                             <div class="instagram__img">
-                                <img src="assets/images/resources/instagram-1-4.jpg" height="198rem" alt="">
+                                <img src="assets/images/resources/instagram-1-4.jpg" loading="lazy" height="198rem" alt="">
                                 <div class="instagram__img-icon">
                                     <a href="https://www.instagram.com/soulful_serenity_spa_and_salon/" target="_blank"><span class="fab fa-instagram"></span></a>
                                 </div>
@@ -709,7 +659,7 @@
                     <div class="col-xl-2 col-lg-4 col-md-6">
                         <div class="instagram__single">
                             <div class="instagram__img">
-                                <img src="assets/images/resources/instagram-1-5.jpg" alt="">
+                                <img src="assets/images/resources/instagram-1-5.jpg" loading="lazy" alt="">
                                 <div class="instagram__img-icon">
                                     <a href="https://www.instagram.com/soulful_serenity_spa_and_salon/" target="_blank"><span class="fab fa-instagram"></span></a>
                                 </div>
@@ -721,7 +671,7 @@
                     <div class="col-xl-2 col-lg-4 col-md-6">
                         <div class="instagram__single">
                             <div class="instagram__img">
-                                <img src="assets/images/resources/instagram-1-6.jpg" height="200rem" alt="">
+                                <img src="assets/images/resources/instagram-1-6.jpg" loading="lazy" height="200rem" alt="">
                                 <div class="instagram__img-icon">
                                     <a href="https://www.instagram.com/soulful_serenity_spa_and_salon/" target="_blank"><span class="fab fa-instagram"></span></a>
                                 </div>
@@ -733,10 +683,9 @@
             </div>
         </section>
         <!--Instagram End-->
-
         <!--Spa Center Start-->
         <section class="spa-center">
-            <div class="spa-center__bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image: url(assets/images/backgrounds/background0.jpg);">
+            <div class="spa-center__bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%" style="background-image: url(assets/images/backgrounds/background0.jpg);" loading="lazy">
             </div>
             <div class="spa-center__inner">
                 <div class="container">
@@ -754,12 +703,11 @@
             </div>
         </section>
         <!--Spa Center End-->
-
         <!--Google Map Start-->
         <section class="google-map">
             <div class="container">
                 <div class="google-map__inner">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.3027417476637!2d73.76730421106676!3d18.560385182468025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf417c751b75%3A0xc98d7cfd4ccadeaa!2sSoulful%20Serenity%20Spa%20%26%20Salon!5e0!3m2!1sen!2sin!4v1689326438835!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                         class="google-map__one" allowfullscreen>
                     </iframe>
                     <div class="google-map__opening-hours">
@@ -778,7 +726,6 @@
             </div>
         </section>
         <!--Google Map End-->
-
         <!--Blog One Start-->
         <section class="blog-one">
             <div class="container">
@@ -791,7 +738,7 @@
                     <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="100ms">
                         <div class="blog-one__single">
                             <div class="blog-one__img">
-                                <img src="assets/images/blog/blog-1-2.jpg" height="290rem" alt="">
+                                <img src="assets/images/blog/blog-1-2.jpg" loading="lazy" height="290rem" alt="">
                             </div>
                             <div class="blog-one__content">
                                 <div class="blog-one__date">
@@ -817,7 +764,7 @@
                     <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="200ms">
                         <div class="blog-one__single">
                             <div class="blog-one__img">
-                                <img src="assets/images/blog/blog-1-1.jpg" alt="">
+                                <img src="assets/images/blog/blog-1-1.jpg" loading="lazy" alt="">
                             </div>
                             <div class="blog-one__content">
                                 <div class="blog-one__date">
@@ -842,7 +789,7 @@
                     <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
                         <div class="blog-one__single">
                             <div class="blog-one__img">
-                                <img src="assets/images/blog/blog5.jpg" height="290rem" alt="">
+                                <img src="assets/images/blog/blog5.jpg" loading="lazy" height="290rem" alt="">
                             </div>
                             <div class="blog-one__content">
                                 <div class="blog-one__date">
@@ -867,8 +814,6 @@
             </div>
         </section>
         <!--Blog One End-->
-
-
     <!--Site Footer Start-->
     <footer class="site-footer">
         <div class="site-footer__shape-1 float-bob-x">
@@ -883,21 +828,13 @@
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
                         <div class="footer-widget__column footer-widget__contact-box">
                             <div class="main-menu__logo">
-                                <a href="index.html"><img src="assets/images/Soulful Serenity white-03.png" width="50%" alt=""></a>
+                                <a href="index.html"><img src="assets/images/Soulful Serenity white-03.png" width="80%" alt=""></a>
                             </div>
                             <div class="footer-widget__contact">
-                                <a href="mailto:spasoulful@gmail.com" style="font-size: 15px;">spasoulful@gmail.com</a>
-                                <!-- <a href="tel:+91 7666439195">+91 7666439195</a> -->
                             </div>
-
                             <div class="footer-widget__contact-form-box" style="margin-top: -20px;">
-                                <form class="footer-widget__contact-form mc-form" data-url="MC_FORM_URL" novalidate="novalidate">
-                                    <div class="footer-widget__contact-form-input-box">
-                                        <input type="email" placeholder="Email address" name="EMAIL">
-                                        <button type="submit" class="footer-widget__newsletter-btn"><img
-                                                src="assets/images/icon/paper-plan-icon.png" alt=""></button>
-                                    </div>
-                                </form>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.3027417476637!2d73.76730421106676!3d18.560385182468025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf417c751b75%3A0xc98d7cfd4ccadeaa!2sSoulful%20Serenity%20Spa%20%26%20Salon!5e0!3m2!1sen!2sin!4v1689326438835!5m2!1sen!2sin" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen>
+                            </iframe>
                                 <div class="mc-form__response"></div>
                             </div>
                         </div>
@@ -932,7 +869,7 @@
                                     <a href="tel:+91 7666439195"><i class="fa fa-phone-alt"></i></a>
                                     <a href="https://www.instagram.com/soulful_serenity_spa_and_salon/"><i class="fab fa-instagram"></i></a>
                             </div>
-                            <p>Shroff Suhana, Bunglow No.C 90/2/1, Bahind Sadanand Hotel, Opp. Skoda Showroom Baner, Pune 411021</p>
+                            <p>Near Padmanabh, Row House B, Shroff Suhana Lane No 11, Road, near Spicecourt Restaurant, Veerbhadra Nagar, Baner, Pune, Maharashtra 411045 </p>
                         </div>
                     </div>
                 </div>
@@ -940,27 +877,20 @@
         </div>
     </footer>
     <!--Site Footer End-->
-
-
-
     </div>
     <!-- /.page-wrapper -->
-
-
     <div class="mobile-nav__wrapper">
         <div class="mobile-nav__overlay mobile-nav__toggler"></div>
         <!-- /.mobile-nav__overlay -->
      <!-- /.mobile-nav__overlay -->
      <div class="mobile-nav__content">
         <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
-
         <div class="logo-box">
             <a href="index.html"><img src="assets/images/Soulful Serenity white-03.png" width="250rem" /></a>
         </div>
         <!-- /.logo-box -->
         <div class="mobile-nav__container"></div>
         <!-- /.mobile-nav__container -->
-
         <ul class="mobile-nav__contact list-unstyled">
             <li>
                 <i class="fa fa-envelope"></i>
@@ -977,17 +907,11 @@
                 <a href="https://www.instagram.com/soulful_serenity_spa_and_salon/" target="_blank" class="fab fa-instagram"></a>
             </div><!-- /.mobile-nav__social -->
         </div><!-- /.mobile-nav__top -->
-
-
-
     </div>
     <!-- /.mobile-nav__content -->
 </div>
 <!-- /.mobile-nav__wrapper -->
-
     <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
-
-
     <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
     <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendors/jarallax/jarallax.min.js"></script>
@@ -1015,12 +939,7 @@
     <script src="assets/vendors/sidebar-content/jquery-sidebar-content.js"></script>
     <script src="assets/vendors/twenty-twenty/twentytwenty.js"></script>
     <script src="assets/vendors/twenty-twenty/jquery.event.move.js"></script>
-
-
-
-
     <!-- template js -->
     <script src="assets/js//mellis.js"></script>
 </body>
-
 </html>

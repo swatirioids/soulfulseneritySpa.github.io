@@ -719,25 +719,18 @@
         align-items: baseline;
     }
 }
-
 @media only screen and (min-width: 1300px) and (max-width: 1500px) {}
-
 @media only screen and (min-width: 1200px) and (max-width: 1299px) {}
-
 @media only screen and (min-width: 1200px) and (max-width: 1320px) {}
-
 @media only screen and (min-width: 1200px) and (max-width: 1560px) {}
-
 /*--------------------------------------------------------------
 # Slider All Responsice Css
 --------------------------------------------------------------*/
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .main-slider-two #main-slider-pagination {
         max-width: 960px;
     }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .main-slider-two #main-slider-pagination {
         max-width: 720px;
@@ -750,7 +743,6 @@
         line-height: 100px;
     }
 }
-
 @media only screen and (max-width: 767px) {
     .main-slider__title {
         font-size: 55px;
@@ -774,15 +766,11 @@
         font-size: 18px;
     }
 }
-
 @media only screen and (min-width: 1200px) and (max-width: 1450px) {}
-
 @media only screen and (min-width: 1200px) and (max-width: 1750px) {}
-
 /*--------------------------------------------------------------
 # Main Menu All Responsice Css
 --------------------------------------------------------------*/
-
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .main-menu-two .mobile-nav__toggler:hover {
         color: var(--mellis-white);
@@ -791,7 +779,6 @@
         color: var(--mellis-white);
     }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .main-header__top {
         display: none;
@@ -803,7 +790,6 @@
         color: var(--mellis-white);
     }
 }
-
 @media (max-width: 767px) {
     .main-header__top {
         display: none;
@@ -833,12 +819,7 @@
         padding: 22px 0;
     }
 }
-
-
 @media only screen and (min-width: 1200px) and (max-width: 1449px) {}
-
 @media only screen and (min-width: 1200px) and (max-width: 1400px) {}
-
 @media only screen and (min-width: 1300px) and (max-width: 1499px) {}
-
 @media only screen and (min-width: 1200px) and (max-width: 1299px) {}
